@@ -7,14 +7,6 @@ public class Coperation_binome {
 	
 	
 	public static void main(String[] args) {
-<<<<<<< Updated upstream
-		Thread etu_1 = new Thread();
-		Thread etu_2 = new Thread();
-		
-		ArrayList<ArrayList<ArrayList<int[]>>> fiche = new ArrayList<>();
-		//fiche.get(0).get(2).get(0)[1] = 0;
-		
-=======
 		ArrayList<Fichier> fichiers = new ArrayList<Fichier>();
 		Fichier fichier5 = new Fichier(3);
 		Fichier fichier6 = new Fichier(2);
@@ -26,7 +18,6 @@ public class Coperation_binome {
 		
 		Ihab.start();
 		Yassine.start();
->>>>>>> Stashed changes
 	}
 
 }
